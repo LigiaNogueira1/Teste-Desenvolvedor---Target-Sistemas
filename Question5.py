@@ -1,25 +1,17 @@
+#Questão5 - Target Sistemas
+
+#Escreva um programa que inverta os caracteres de um string.
+#IMPORTANTE: 
+#a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código; 
+#b) Evite usar funções prontas, como, por exemplo, reverse.
+
+
 print("-" *42)
-print(" " *3, "Consulta da Sequência de Fibonacci")
+print(" " *6, "Exibindo palavra invertida")
 print("-" *42)
 
-lista = []
-termo1 = int(0)
-termo2 = int(1)
-termo3 = int(0)
-valor = 0
+string = input("Digite uma palavra para ser invertida: ")
+print("A palavra, invertida, é: ")
 
-valor = int(input("Digite um número e veja se ele está contido na Sequência de Fibonacci: "))
-
-while valor > termo3:
-    termo3 = termo1 + termo2
-    termo1 = termo2
-    termo2 = termo3
-    lista.append(termo3)
-
-print("Confira a lista gerada:", lista)
-if valor == 0 or valor == 1:
-    print("O número está contido na Sequência de Fibonacci.")
-elif valor == termo3:
-    print("O número está contido na Sequência de Fibonacci.")
-else:
-    print("O número não está contido na Sequência de Fibonacci.")
+for str in range(len(string) -1, -1, -1):
+    print(string[str], end="")
