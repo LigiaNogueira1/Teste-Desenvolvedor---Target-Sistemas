@@ -1,13 +1,13 @@
 #Questão1 - Target Sistemas
 
 indice = 13
-SOMA = 0 
-K = 0
+soma = 0 
+k = 0
 
-while K < indice:
-    K = K + 1
-    SOMA = SOMA + K
+while k < indice:
+    k = k + 1
+    soma = soma + k
 
-print(SOMA)
+print(soma)
 
-#Resposta da questão: o número e
+#Resposta da questão: ao final do processamento, o valor da variável "soma" será 91.
