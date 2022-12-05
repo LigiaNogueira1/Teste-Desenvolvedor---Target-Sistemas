@@ -1,5 +1,9 @@
 #Questão4 - Target Sistemas
 
+print("-" *42)
+print("Calculando o percentual de representação")
+print("-" *42)
+
 sp = 67836.43
 rj = 36678.66
 mg = 29229.88
