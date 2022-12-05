@@ -1,4 +1,4 @@
-#Questão3 - Target Sistemas
+#Questão5 - Target Sistemas
 
 string = input("Digite uma palavra para ser invertida: ")
 print("A palavra, invertida, é: ")
