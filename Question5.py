@@ -1,5 +1,9 @@
 #Questão5 - Target Sistemas
 
+print("-" *42)
+print(" " *6, "Exibindo palavra invertida")
+print("-" *42)
+
 string = input("Digite uma palavra para ser invertida: ")
 print("A palavra, invertida, é: ")
 
