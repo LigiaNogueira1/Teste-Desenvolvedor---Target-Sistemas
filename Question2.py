@@ -30,4 +30,3 @@ elif valor == termo3:
     print("O número está contido na Sequência de Fibonacci.")
 else:
     print("O número não está contido na Sequência de Fibonacci.")
-
