@@ -39,6 +39,6 @@ calc = calc / len(valores)
 print('>>> FATURAMENTO MENSAL <<<')
 print('O maior faturamento foi no dia', maior, 'com um valor de', valores[maior])
 print('O menor faturamento foi no dia', menor, 'com um valor de', valores[menor])
-print("A média mensal é de " + str(calc) + " e o valor de faturamento diário foi superior à ela em: "  "dias") 
+print("A média mensal é de " + str(calc))
 
 arquivo.close()
